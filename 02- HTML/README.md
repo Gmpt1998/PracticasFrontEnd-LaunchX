@@ -1,5 +1,7 @@
 Practicas HTML
+
 Descripcion:
+
 El cliente de la pastelería necesita ver los diferentes sabores de pasteles, así como los precios de cada uno.
 El cliente de la pastelería necesita ver los diferentes adornos con los que se puede decorar el pastel y los precios de cada uno.
 El cliente de la pastelería tendrá la posibilidad de combinar sabores dependiendo de sus preferencias.
@@ -12,6 +14,7 @@ El pastelero necesita una tabla donde aparezcan los pedidos que se han realizado
 La página debe tener información de la pastelería que es Dirección, Teléfono y horarios de atención.
 
 Prácticas:
+
 Crear marca de la pastelería como un logo y los mensajes que daremos desde la marca.
 Maquetación de páginas de cliente de la pastelería.
 Maquetación de páginas del pastelero.

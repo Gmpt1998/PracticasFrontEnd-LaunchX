@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./PracticaHTML.css">
+    <title>Sefi Cake</title>
+</head>
+<body>
+    <!--navbar and logo */ --> 
+    <header>
+        <section class="logo">
+            <img src="./resources/logo.png" alt="Sefi Cake" width=100px">
+            <p class="titulo-logo">Sefi Cake</p>
+        </section>
+    </header>   
+    <nav>
+        <ul>
+            <li><a class="active" href="#inicio">INICIO</a></li>
+            <li><a href="#menu">MENU</a></li>
+            <li><a href="#pedidos">PEDIDOS</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
+            <li><a href="Practica HTML4.html">ADMINISTRADOR</a></li>
+        </ul>
+    </nav> 
+    <hr class="nav-ini">
+
+    <!-- section "INICIO" --> 
+    <section id="inicio" name="inicio">
+        <section class="contenedor">
+            <section class="fila">
+                <section class="columna uno">
+                    <div class="cajatexto">
+                        <p class="texto"><b style="color: #ce93d8; font-size: 30px;text-align: center;">¡Pasteles y postres para cada tipo de gusto!</b><br><br>Disfruta de nuestros deliciosos y diversos postres, hechos con los ingredientes de mejor calidad y con el amor de nuestra cocinera.</p>
+                    </div>
+                </section>
+                <section class="columna dos">
+                    <section class="imagen">
+                        <img src="resources/ps.jpg" alt="pastel" width="650px" >
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <!-- section "MENU" --> 
+    <section id="menu" name="menu" >
+        <h2 class="titulo">Menu</h2>
+        <section class="contenedor" style="overflow-x: auto;">
+            <table>
+            <h3 style="background-color: #ce93d8; font-size:30px;color:white; text-align: center;">Pasteles</h3>
+            <tr>
+                <th class="sabores">Sabores</th>
+                <th>6-8 porciones</th>
+                <th>20-25 porciones</th>
+                <th>45-50 porciones</th>
+            </tr>
+            <tr>
+                <td>Chocolate</td>
+                <td class="precio">$150</td>
+                <td class="precio">$250</td>
+                <td class="precio">$380</td>
+            </tr>
+            <tr>
+            <td>Doblechocolate</td>
+            <td class="precio">$180</td>
+            <td class="precio">$270</td>
+            <td class="precio">$400</td>
+            </tr>
+            <tr>
+                <td>Vainilla</td>
+                <td class="precio">$150</td>
+                <td class="precio">$250</td>
+                <td class="precio">$380</td>
+            </tr>
+            <tr>
+                <td>Tres leches</td>
+                <td class="precio">$150</td>
+                <td class="precio">$250</td>
+                <td class="precio">$380</td>
+            </tr>
+            <tr>
+                <td>Zanahoria</td>
+                <td class="precio">$160</td>
+                <td class="precio">$270</td>
+                <td class="precio">$390</td>
+            </tr>
+        </table>
+        <table>
+            <h3 style="background-color: #ce93d8; font-size:30px;color:white; text-align: center;">Cheescake</h3>
+            <tr>
+                <th class="sabores">Sabores</th>
+                <th>Chico</th>
+                <th>Grande</th>
+            </tr>
+            <tr>
+                <td>Cajeta</td>
+                <td class="precio">$290</td>
+                <td class="precio">$350</td>
+            </tr>
+            <tr>
+                <td>Ferrero</td>
+                <td class="precio">$290</td>
+                <td class="precio">$350</td>
+            </tr>
+            <tr>
+                <td>Zarzamora</td>
+                <td class="precio">$290</td>
+                <td class="precio">$350</td>
+            </tr>
+            <tr>
+                <td>Oreo</td>
+                <td class="precio">$290</td>
+                <td class="precio">$350</td>
+            </tr>
+            <tr>
+                <td>Limon</td>
+                <td class="precio">$290</td>
+                <td class="precio">$350</td>
+            </tr>
+            <tr>
+                <td>Fresa</td>
+                <td class="precio">$290</td>
+                <td class="precio">$350</td>
+            </tr>
+            <tr>
+                <td>Manzana</td>
+                <td class="precio">$290</td>
+                <td class="precio">$350</td>
+            </tr>
+        </table>
+        <table>
+            <h3 style="background-color: #ce93d8; font-size:30px;color:white; text-align: center;">Gelatinas</h3>
+            <tr>
+                <th class="sabores">Sabores</th>
+                <th>Chica</th>
+                <th>Grande</th>
+            </tr>
+            <tr>
+                <td>Leche</td>
+                <td class="precio">$180</td>
+                <td class="precio">$250</td>
+            </tr>
+            <tr>
+                <td>Mosaico</td>
+                <td class="precio">$180</td>
+                <td class="precio">$250</td>
+            </tr>
+            <tr>
+                <td>Frutas</td>
+                <td class="precio">$200</td>
+                <td class="precio">$280</td>
+            </tr>
+        </table>
+        </section>
+    </section>
+    <hr class="menu-pedi">
+    <!-- section "PEDIDOS" -->
+    <section id="explicacion" name="explicacion">
+        <p><b style="font-size: 40px; color: #ce93d8;">¡Realiza un pedido!</b> <br> En Sefi Cake pensamos en todos los clientes!!<br> tenemos dos opciones para realizar un pedido: <br> puedes comprar uno de nuestro pasteles prefabricados <br> o puedes personalizar tu propio pastel!
+        </p>
+    </section>
+    <section id="pedidos" name="pedidos" >
+        <section class="contenedor">
+            <section class="fila">
+                <section class="columna uno">
+                    <section class="imagen1">
+                        <a href="Practica HTML3.html"><img src="resources/boton 1.png" alt="pastelmenu" width="100%"></a>
+                    </section>
+                </section>
+                <section class="columna dos">
+                    <section class="imagen2">
+                        <a href="Practica HTML2.html"><img src="resources/boton 2.png" alt="pastelmenu" width="100%"></a>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
+    <hr class="pedi-cont">
+    <!-- section "CONTACTO" -->
+    <section id="contacto" name="contacto">
+        <p><b style="font-size: 40px;color:black;">Contactanos</b></p><br>
+        <p><b style="font-size: 25px;"> Horario de atencion:</b> <br>lunes a viernes de 8:00-20:00 <br> sabados de 8:00-14:00 <br><b style="font-size: 25px;">Dirección:</b> <br>Juan alvarez #1899 guadalajara, jalisco</p>
+            <section class="fila">
+                <section class="columna uno">
+                    <p><i class="material-icons" style="font-size: 25px;color: rgb(0, 0, 0);">phone</i> (55)33456789</p>
+                </section>
+                <section class="columna dos">
+                    <p><i class="material-icons" style="font-size: 25px;color: rgb(0, 0, 0);">email</i> seficake@gmail.com</p>
+                </section>
+                <section class="columna tres">
+                    <p><i class="material-icons" style="font-size: 25px;color: rgb(0, 0, 0);">facebook</i>SefiCake</p>
+                </section>
+                <section class="columna cuatro">
+                   <p><i class="material-icons" style="font-size: 25px;color: rgb(0, 0, 0);">favorite</i>Seficake</p> 
+                </section>
+            </section>
+    </section>
+</body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./PracticaHTML2.css">
+    <title>Sefi Cake</title>
+</head>
+<body>
+    <!--navbar and logo */ --> 
+    <header>
+        <section class="logo">
+            <img src="resources/logo.png" alt="Sefi Cake" width=100px">
+            <p class="titulo-logo">Sefi Cake</p>
+        </section>
+    </header>   
+    <nav>
+        <ul>
+            <li><a class="active" href="Practica HTML.html#inicio">INICIO</a></li>
+            <li><a href="Practica HTML.html#menu">MENU</a></li>
+            <li><a href="Practica HTML.html#pedidos">PEDIDOS</a></li>
+            <li><a href="Practica HTML.html#contacto">CONTACTO</a></li>
+            <li><a href="Practica HTML4.html">ADMINISTRADOR</a></li>
+        </ul>
+    </nav> 
+    <hr class="nav-ini">
+
+ <!--section form-->
+    <section id="form" name="form">
+        <section>
+            <h2>¡Realiza tu pedido!</h2>
+            <div class="contenedor">
+                <form action="#formulario.php">
+                <h2>Datos del cliente:</h2>
+                <div class="datos">
+                    <div class="label-input"> 
+                        <label for="name">Nombre(s)</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="label-input"> 
+                        <label for="ApellidoP">Apellido Paterno</label>
+                        <input type="text" id="ApellidoP" name="ApellidoP">
+                    </div>
+                    <div class="label-input"> 
+                        <label for="ApellidoM">Apellido Materno</label>
+                        <input type="text" id="ApellidoM" name="ApellidoM">
+                    </div>
+                    <div class="label-input"> 
+                        <label for="tel">Telefono de casa</label>
+                        <input type="number" maxlength="12" id="tel" name="tel" value="Ingrese unicamente numeros">
+                    </div>
+                    <div class="label-input"> 
+                        <label for="cel">Telefono Celular</label>
+                        <input type="number" maxlength="12" id="cel" name="cel" value="Ingrese unicamente numeros">
+                    </div>
+                    <div class="label-input"> 
+                        <label for="email">correo electronico</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="label-input"> 
+                        <label for="adress">Direccion:</label>
+                        <input type="adress"  id="adress" name="adress">
+                    </div>
+                    <div class="label-input"> 
+                        <label for="number">Numero exterior</label>
+                        <input type="number" id="number" name="number">
+                    </div>
+                    <div class="label-input"> 
+                        <label for="colonia">Colonia</label>
+                        <input type="text" id="colonia" name="colonia">
+                    </div>
+                    <div class="label-input"> 
+                        <label for="city">Cuidad</label>
+                        <input type="text" id="city" name="city">
+                    </div>
+                    <div class="label-input"> 
+                        <label for="pais">Pais</label>
+                        <input type="text" id="pais" name="pais">
+                    </div>
+                <p style="font-size: 30px; color:white; padding: 30px;"><b> Selecciona el Pastel que deseas:</b></p>
+                <div class="pasteles">
+                    <div>
+                        <label>
+                        <input type="checkbox" id="cbox1" value="pastel1">Pastel de chocolate
+                        </label>
+                        <br>
+                    </div>
+                    <div>
+                        <label>
+                        <input type="checkbox" id="cbox2" value="pastel1">Pastel doblechocolate
+                        </label>
+                        <br>
+                    </div>
+                    <div>
+                        <label>
+                        <input type="checkbox" id="cbox3" value="pastel2">Pastel de vainila
+                        </label>
+                        <br>
+                    </div>
+                    <div>
+                        <label>
+                        <input type="checkbox" id="cbox4" value="pastel3">Pastel tres leches
+                        </label>
+                        <br>
+                    </div>
+                    <div>
+                        <label>
+                        <input type="checkbox" id="cbox5" value="pastel5">Pastel de zanahoria
+                        </label>
+                        <br>
+                    </div>
+                    <div>
+                        <label>
+                        <input type="checkbox" id="cbox6" value="pastel6">Cheescake Cajeta
+                        </label>
+                        <br>
+                    </div>
+                    <div>
+                        <label>
+                        <input type="checkbox" id="cbox7" value="pastel7">Cheescake ferrero
+                        </label>
+                        <br>
+                    </div>
+                    <div>
+                        <label>
+                        <input type="checkbox" id="cbox8" value="pastel8">Cheescake zarzmora
+                        </label>
+                        <br>
+                    </div>
+                    <div>
+                        <label>
+                        <input type="checkbox" id="cbox9" value="pastel9">Cheescake Oreo
+                        </label>
+                        <br>
+                    </div>
+                    <div>
+                        <label></label>
+                        <input type="checkbox" id="cbox10" value="pastel10">Cheescake limon
+                        </label>
+                        <br>
+                    </div>
+                    <div>
+                        <label>
+                        <input type="checkbox" id="cbox11" value="pastel11">Cheescake fresa
+                        </label>
+                        <br>
+                    </div>
+                    <div>
+                        <label>
+                        <input type="checkbox" id="cbox12" value="pastel12">Cheescake Manzana
+                        </label>
+                        <br>
+                    </div>
+                    <div>
+                        <label>
+                        <input type="checkbox" id="cbox13" value="pastel13">Gelatina leche
+                        </label>
+                        <br>
+                    </div>
+                    <div>
+                        <label>
+                        <input type="checkbox" id="cbox14" value="pastel14">Gelatina mosaico
+                        </label>
+                        <br>
+                    </div>
+                    <div>
+                        <label>
+                        <input type="checkbox" id="cbox15" value="pastel15">Gelatina frutas
+                        </label>
+                        <br>
+                    </div>   
+                </div>
+                <button class="btn" name="button">Enviar</button>
+                </div>
+                </form>
+            </div>
+        </section>
+    </section>
+    <!--section contacto-->
+    <section id="contacto" name="contacto">
+        <p><b style="font-size: 40px;color:black;">Contactanos</b></p><br>
+        <p><b style="font-size: 25px;"> Horario de atencion:</b> <br>lunes a viernes de 8:00-20:00 <br> sabados de 8:00-14:00 <br><b style="font-size: 25px;">Dirección:</b> <br>Juan alvarez #1899 guadalajara, jalisco</p>
+            <section class="fila">
+                <section class="columna uno">
+                    <p><i class="material-icons" style="font-size: 25px;color: rgb(0, 0, 0);">phone</i> (55)33456789</p>
+                </section>
+                <section class="columna dos">
+                    <p><i class="material-icons" style="font-size: 25px;color: rgb(0, 0, 0);">email</i> seficake@gmail.com</p>
+                </section>
+                <section class="columna tres">
+                    <p><i class="material-icons" style="font-size: 25px;color: rgb(0, 0, 0);">facebook</i>SefiCake</p>
+                </section>
+                <section class="columna cuatro">
+                   <p><i class="material-icons" style="font-size: 25px;color: rgb(0, 0, 0);">favorite</i>Seficake</p> 
+                </section>
+            </section>
+    </section>
+    </body>
+    </html>
+    
